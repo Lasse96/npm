@@ -18,5 +18,8 @@
     "website"
   ],
   "author": "Lasse96 <lasse_strand_96@hotmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "one-liner-joke": "^1.2.2"
+  }
 }
