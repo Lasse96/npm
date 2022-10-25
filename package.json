@@ -1,11 +1,12 @@
 {
   "name": "joker",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "Application that tells jokes",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "test": "node src/js/joker.js"
+    "test": "node src/js/joker.js",
+    "format": "prettier -w src/js/joker.js"
   },
   "repository": {
     "type": "git",
@@ -21,8 +22,5 @@
   "license": "ISC",
   "dependencies": {
     "one-liner-joke": "^1.2.2"
-  },
-  "devDependencies": {
-    "prettier": "^2.7.1"
   }
 }
