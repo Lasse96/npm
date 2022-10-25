@@ -19,3 +19,7 @@
   "author": "Lasse96 <lasse_strand_96@hotmail.com>",
   "license": "ISC"
 }
+{
+  "description": "example",
+  "type": "module",
+}
