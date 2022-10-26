@@ -1,12 +1,14 @@
 {
   "name": "lasse96-joker",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "description": "Application that tells jokes",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "test": "node src/js/joker.js",
-    "format": "prettier -w src/js/joker.js"
+    "test": "node src/js/joker.test.js",
+    "format": "prettier -w src/**/*.js",
+    "lint": "eslint src/**/*.js",
+    "lint-fix": "eslint src/**/*.js --cache --fix"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,8 @@
   "license": "ISC",
   "dependencies": {
     "give-me-a-joke": "^0.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.26.0"
   }
 }
